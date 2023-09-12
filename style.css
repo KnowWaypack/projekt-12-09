@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato";
+}
+.baner {
+  height: 150px;
+  background-color: lightgrey;
+  font-size: 220%;
+  color: gray;
+  text-align: center;
+
+  display: flex;
+}
+.a3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 1;
+}
+.baner > video{
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.nav {
+  background-color: gray;
+  text-align: right;
+  height: 50px;
+  color: white;
+  justify-content: right;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+.z1 {
+  text-align: center;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+.z1 > img {
+  height: 200px;
+  border-radius: 25px;
+  border: solid 1px grey;
+}
+
+.t1 {
+  padding-left: 150px;
+
+  text-align: left;
+  display: grid;
+  grid-template-columns: 70%;
+}
+
+.zd1 {
+  padding-right: 150px;
+  padding-left: 0px;
+  text-align: right;
+  margin-top: 50px;
+}
+
+.zd1 > img {
+  border-radius: 35px;
+  height: 350px;
+}
+.kom1 {
+  display: flex;
+}
+.g1 {
+  margin-top: 20px;
+  text-align: right;
+  margin-right: 150px;
+  color: grey;
+}
+.t2 {
+  padding-right: 150px;
+  text-align: left;
+  margin-top: 80px;
+  place-items: center;
+  padding-left: 100px;
+  line-height: 30px;
+}
+.zd2 > img {
+  border-radius: 35px;
+  height: 300px;
+}
+.zd2 {
+  margin-left: 150px;
+  margin-top: 50px;
+  display: block;
+}
+.kom2 {
+  display: flex;
+}
+.g2 {
+  margin-top: 20px;
+  text-align: right;
+  margin-right: 150px;
+  color: grey;
+}
+.kom3 {
+  display: flex;
+}
+.t3 {
+  padding-right: 50px;
+  text-align: left;
+  margin-top: 80px;
+  padding-left: 150px;
+}
+.zd3 {
+  margin-right: 200px;
+  margin-top: 60px;
+}
+.zd3 > img {
+  height: 150px;
+}
+.footer {
+  height: 100px;
+  background-color: grey;
+  color: white;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  display: flex;
+}
+.g3 {
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 150px;
+    color: grey;
+    margin-bottom: 40px;
+  }
+  .a0{
+    text-decoration: none;
+    color: white;
+  }
+  .a1{
+    text-decoration: none;
+    color: grey;
+  }
